@@ -1,112 +1,47 @@
 # 🤖 AI Object Detection
 
-A real-time object detection web application built with **TensorFlow.js** and **COCO-SSD** model. Detects objects directly in the browser using your webcam — no server required!
+## 👋 About this Project
+This is a web-based AI object detection application that runs directly in your browser. It uses your device’s camera to detect objects in real time, making it easy and accessible without requiring any installation.
 
 ---
 
-## 🌟 Demo
-
-> Open `index.html` in your browser and allow camera access to start detecting objects in real time.
-
----
-
-## ✨ Features
-
-- 🎥 Real-time object detection via webcam
-- 🧠 Powered by TensorFlow.js (COCO-SSD model)
-- 🌐 Runs 100% in the browser — no backend needed
-- ⚡ Fast and lightweight
-- 📱 Works on desktop and mobile browsers
+## ⚙️ Features
+- ✅ Toggle switch to enable or disable AI detection  
+- ✅ Range slider to control frame rate  
+- ✅ Real-time object detection through your camera  
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| HTML5 | Structure & Video element |
-| CSS3 | Styling & Layout |
-| JavaScript | Logic & Detection |
-| TensorFlow.js | Machine Learning in browser |
-| COCO-SSD | Pre-trained object detection model |
+## 🖼️ Preview
+<a href="https://ibb.co/JCNgfJr"><img src="https://i.ibb.co/3kwQDZS/preview-combined.jpg" alt="preview-combined" width="100%"></a>
 
 ---
 
-## 📁 Project Structure
-
-```
-AI-Object-Detection-main/
-│
-├── index.html      # Main HTML file (entry point)
-├── style.css       # Styling
-├── video.js        # Camera & detection logic
-├── README.md       # Project documentation
-└── LICENSE         # License info
-```
+## 💪 Try It
+Not convinced yet? Try it out yourself here:  
+👉 [Live Demo](https://woody.pizza/tensorflow/object-detection/)
 
 ---
 
-## 🚀 Getting Started
+## 🌐 Browser Support
+The app works on most modern browsers. Below are the tested ones:
 
-### Prerequisites
+### Desktop
+| Browser           | Supported |
+|-------------------|:---------:|
+| Firefox           | ✅ |
+| Chrome            | ✅ |
+| Edge              | ✅ |
+| Internet Explorer | ❌ |
 
-- A modern web browser (Chrome, Firefox, Edge)
-- Webcam / Camera access
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/AI-Object-Detection.git
-   ```
-
-2. **Navigate to the project folder**
-   ```bash
-   cd AI-Object-Detection
-   ```
-
-3. **Open in browser**
-   ```bash
-   # Simply open index.html in your browser
-   # OR use Live Server in VS Code
-   ```
-
-> ⚠️ **Note:** Some browsers block camera access on `file://` protocol. Use **VS Code Live Server** or any local HTTP server for best results.
+### Mobile
+| Browser  | Supported |
+|----------|:---------:|
+| Firefox  | ✅ |
+| Chrome   | ✅ |
 
 ---
 
-## 🎯 How It Works
-
-1. Browser accesses your webcam using `getUserMedia` API
-2. Video frames are passed to the **COCO-SSD** model via TensorFlow.js
-3. The model detects objects and returns bounding boxes with labels
-4. Results are drawn on an HTML5 Canvas overlaid on the video
-
----
-
-## 📦 COCO-SSD Model
-
-The **COCO-SSD** (Common Objects in Context - Single Shot MultiBox Detector) model can detect **80 different object classes** including:
-
-`person` · `car` · `cat` · `dog` · `laptop` · `phone` · `chair` · `bottle` · `book` · and many more!
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repo
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the terms in the [LICENSE](LICENSE) file.
-
----
-
+## ✌️ Credits
+- [Materialize](https://materializecss.com/) – for UI components  
+- [ml5.js](https://ml5js.org/) – for machine learning in the browser  
